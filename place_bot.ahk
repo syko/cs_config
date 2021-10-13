@@ -13,7 +13,7 @@ BotId := 0
 TruncateLog()
 
 #If WinActive("ahk_exe csgo.exe")
-    ^NumpadClear::
+    ^Numpad5::
         PlaceBot()
     return
 #If
