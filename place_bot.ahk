@@ -16,6 +16,9 @@ TruncateLog()
     ^Numpad5::
         PlaceBot()
     return
+    ^NumpadClear::
+        PlaceBot()
+    return
 #If
 
 TruncateLog()
